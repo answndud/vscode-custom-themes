@@ -1,6 +1,6 @@
 {
   "name": "night-mjy",
-  "displayName": "Night (MJY)",
+  "displayName": "Blue Night (MJY)",
   "description": "A cool, high-contrast dark theme inspired by the Ghostty Night palette.",
   "version": "0.3.6",
   "publisher": "mjy",
@@ -14,12 +14,17 @@
   "contributes": {
     "themes": [
       {
-        "label": "Night (MJY)",
+        "label": "Blue Night (MJY)",
         "uiTheme": "vs-dark",
         "path": "./themes/night-mjy-color-theme.json"
       },
       {
-        "label": "Day (MJY)",
+        "label": "Dark Night (MJY)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-modern-mjy-color-theme.json"
+      },
+      {
+        "label": "Blue Day (MJY)",
         "uiTheme": "vs",
         "path": "./themes/day-mjy-color-theme.json"
       }

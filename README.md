@@ -1,12 +1,12 @@
-# Night MJY
+# Blue Night MJY
 
 A high-contrast VS Code color theme with an electric cyan, Tornado Cash-inspired neon green, and lavender accent palette.
 
-Night MJY includes both a dark theme for focused coding sessions and a clean white light theme for bright environments.
+Blue Night MJY includes dark themes for focused coding sessions and a clean white light theme for bright environments.
 
 ## Themes
 
-### Night (MJY)
+### Blue Night (MJY)
 
 - Editor background: `#2B2F45`
 - Variables and parameters: bright white
@@ -15,7 +15,7 @@ Night MJY includes both a dark theme for focused coding sessions and a clean whi
 - Types and classes: lavender-blue `#91B4D5`
 - Annotations and brackets: lavender `#C4B5FF`
 
-### Day (MJY)
+### Blue Day (MJY)
 
 - Editor background: `#FFFFFF`
 - Variables and parameters: dark ink for reliable contrast
@@ -38,7 +38,7 @@ Search for **Night MJY** in the VS Code Extensions view after the extension is p
 2. Open VS Code.
 3. Open the Command Palette and run **Extensions: Install from VSIX...**.
 4. Select the downloaded file.
-5. Run **Preferences: Color Theme** and choose `Night (MJY)` or `Day (MJY)`.
+5. Run **Preferences: Color Theme** and choose `Blue Night (MJY)`, `Dark Night (MJY)`, or `Blue Day (MJY)`.
 
 You can also install from a terminal:
 
@@ -51,7 +51,7 @@ code --install-extension night-mjy-0.2.5.vsix
 1. Clone this repository and open it in VS Code.
 2. Press `F5` to launch an Extension Development Host.
 3. Open **Preferences: Color Theme**.
-4. Select `Night (MJY)` or `Day (MJY)`.
+4. Select `Blue Night (MJY)`, `Dark Night (MJY)`, or `Blue Day (MJY)`.
 
 Theme definitions live in the `themes/` directory.
 
