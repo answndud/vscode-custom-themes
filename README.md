@@ -1,36 +1,23 @@
-# Blue Night MJY
+# VS Code Custom Themes
 
-A high-contrast VS Code color theme with an electric cyan, Tornado Cash-inspired neon green, and lavender accent palette.
-
-Blue Night MJY includes dark themes for focused coding sessions and a clean white light theme for bright environments.
+A collection of three VS Code color themes by MJY, designed for readable syntax highlighting and focused coding sessions across dark and light environments.
 
 ## Themes
 
-### Blue Night (MJY)
+| Theme | Type | Editor background | Palette |
+| --- | --- | --- | --- |
+| **Blue Night (MJY)** | Dark | `#282840` | Cyan, neon green, lavender, and warm gold accents |
+| **Dark Night (MJY)** | Dark | `#222426` | Neutral charcoal UI with cyan, mint, blue, and lavender syntax colors |
+| **Blue Day (MJY)** | Light | `#FFFFFF` | High-contrast blue, green, indigo, and purple syntax colors with refined neutral text |
+| **Red Day (MJY)** | Light | `#FFFFFF` | VS Code Light+ syntax colors with Blue Day UI colors |
 
-- Editor background: `#2B2F45`
-- Variables and parameters: bright white
-- Strings and keywords: neon green `#94FEBF`
-- Functions and methods: cyan `#8BE9FD`
-- Types and classes: lavender-blue `#91B4D5`
-- Annotations and brackets: lavender `#C4B5FF`
-
-### Blue Day (MJY)
-
-- Editor background: `#FFFFFF`
-- Variables and parameters: dark ink for reliable contrast
-- Strings and keywords: high-contrast green
-- Functions and methods: vivid blue
-- Types and classes: indigo
-- Annotations and brackets: high-contrast lavender
-
-Both themes include semantic token colors and explicit bracket-pair colors for Java, Python, TypeScript, JavaScript, and other languages.
+All four themes include semantic token colors and six-color bracket pair highlighting. They are suitable for JavaScript, TypeScript, Python, Java, and other languages supported by VS Code's syntax grammars.
 
 ## Installation
 
 ### From the Marketplace
 
-Search for **Night MJY** in the VS Code Extensions view after the extension is published.
+Search for **VS Code Custom Themes** or **vscode-custom-themes** in the VS Code Extensions view after the extension is published.
 
 ### From a VSIX file
 
@@ -38,12 +25,16 @@ Search for **Night MJY** in the VS Code Extensions view after the extension is p
 2. Open VS Code.
 3. Open the Command Palette and run **Extensions: Install from VSIX...**.
 4. Select the downloaded file.
-5. Run **Preferences: Color Theme** and choose `Blue Night (MJY)`, `Dark Night (MJY)`, or `Blue Day (MJY)`.
+5. Run **Preferences: Color Theme** and choose one of:
+   - `Blue Night (MJY)`
+   - `Dark Night (MJY)`
+   - `Blue Day (MJY)`
+   - `Red Day (MJY)`
 
-You can also install from a terminal:
+You can also install a locally built package from a terminal:
 
 ```sh
-code --install-extension night-mjy-0.2.5.vsix
+code --install-extension vscode-custom-themes-*.vsix
 ```
 
 ## Development
@@ -51,9 +42,14 @@ code --install-extension night-mjy-0.2.5.vsix
 1. Clone this repository and open it in VS Code.
 2. Press `F5` to launch an Extension Development Host.
 3. Open **Preferences: Color Theme**.
-4. Select `Blue Night (MJY)`, `Dark Night (MJY)`, or `Blue Day (MJY)`.
+4. Select `Blue Night (MJY)`, `Dark Night (MJY)`, `Blue Day (MJY)`, or `Red Day (MJY)`.
 
-Theme definitions live in the `themes/` directory.
+Theme definitions live in the `themes/` directory:
+
+- `themes/night-mjy-color-theme.json` — Blue Night (MJY)
+- `themes/dark-modern-mjy-color-theme.json` — Dark Night (MJY)
+- `themes/day-mjy-color-theme.json` — Blue Day (MJY)
+- `themes/red-day-mjy-color-theme.json` — Red Day (MJY)
 
 ## Packaging
 

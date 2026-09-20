@@ -191,7 +191,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#6F7973",
+        "foreground": "#5F6A63",
         "fontStyle": "italic"
       }
     },
@@ -384,7 +384,7 @@
         "keyword.modifier.java"
       ],
       "settings": {
-        "foreground": "#3E817C"
+        "foreground": "#256B64"
       }
     },
     {
@@ -425,11 +425,11 @@
   ],
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "comment": "#6F7973",
+    "comment": "#5F6A63",
     "string": "#297454",
     "number": "#7651B5",
     "keyword": "#16756F",
-    "modifier": "#3E817C",
+    "modifier": "#256B64",
     "operator": "#4E5661",
     "function": "#167493",
     "method": "#167493",
@@ -440,7 +440,7 @@
     "typeParameter": "#365F9D",
     "parameter": "#343943",
     "variable": "#343943",
-    "property": "#3F4853",
+    "property": "#343943",
     "enumMember": "#7651B5",
     "boolean": "#6F58A8",
     "null": "#6F58A8",
