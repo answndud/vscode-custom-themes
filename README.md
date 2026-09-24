@@ -7,7 +7,7 @@ A collection of three VS Code color themes by MJY, designed for readable syntax 
 | Theme | Type | Editor background | Palette |
 | --- | --- | --- | --- |
 | **Blue Night (MJY)** | Dark | `#282840` | Cyan, neon green, lavender, and warm gold accents |
-| **Dark Night (MJY)** | Dark | `#222426` | Neutral charcoal UI with cyan, mint, blue, and lavender syntax colors |
+| **Dark Night (MJY)** | Dark | `#1A1A1A` | Neutral charcoal UI with cyan, mint, blue, and lavender syntax colors |
 | **Blue Day (MJY)** | Light | `#FFFFFF` | High-contrast blue, green, indigo, and purple syntax colors with refined neutral text |
 | **Red Day (MJY)** | Light | `#FFFFFF` | VS Code Light+ syntax colors with Blue Day UI colors |
 
