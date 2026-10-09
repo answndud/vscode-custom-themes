@@ -7,8 +7,8 @@ A collection of six VS Code color themes by MJY, designed for readable syntax hi
 | Theme | Type | Editor background | Palette |
 | --- | --- | --- | --- |
 | **Blue Night (MJY)** | Dark | `#282840` | Cyan, neon green, lavender, and warm gold accents |
-| **Dark Night (MJY)** | Dark | `#242424` | Neutral charcoal UI with cyan, mint, blue, lavender, and soft teal syntax colors |
-| **Dark Night Modern (MJY)** | Dark | `#242424` | Dark Night UI with VS Code Dark Modern text and syntax colors |
+| **Dark Night (MJY)** | Dark | `#222222` | Neutral charcoal UI with cyan, mint, blue, lavender, and soft teal syntax colors |
+| **Dark Night Modern (MJY)** | Dark | `#222222` | Dark Night UI with VS Code Dark Modern text and syntax colors |
 | **Blue Day (MJY)** | Light | `#FFFFFF` | High-contrast blue, green, indigo, and purple syntax colors with refined neutral text |
 | **Blue Day Modern (MJY)** | Light | `#FFFFFF` | Blue Day UI with Light Modern foreground and syntax colors |
 | **Red Day (MJY)** | Light | `#FFFFFF` | VS Code Light+ syntax colors with Blue Day UI colors |
@@ -17,7 +17,7 @@ All six themes include semantic token colors and six-color bracket pair highligh
 
 ### Dark Night (MJY) visual system
 
-`Dark Night (MJY)` and `Dark Night Modern (MJY)` use `#242424` as their main editor and UI background. Active surfaces use `#2D2D2E`, while inactive editor tabs remain `#242424`. The active tab is marked with a cyan top border (`#89DDFF`), Explorer hover uses `#242626`, and Explorer selection uses `#2D2D2E` whether or not the Explorer has focus.
+`Dark Night (MJY)` and `Dark Night Modern (MJY)` use `#222222` as their main editor and UI background. Active surfaces use `#2D2D2E`, while inactive editor tabs remain `#222222`. The active tab is marked with a cyan top border (`#89DDFF`), Explorer hover uses `#242626`, and Explorer selection uses `#2D2D2E` whether or not the Explorer has focus.
 
 Its current syntax palette includes:
 
