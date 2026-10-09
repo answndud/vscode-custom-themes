@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Blue Modern Day (MJY)",
+  "name": "Blue Day Modern (MJY)",
   "type": "light",
   "include": "./red-day-mjy-color-theme.json",
   "colors": {

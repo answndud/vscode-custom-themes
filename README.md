@@ -1,22 +1,23 @@
 # VS Code Custom Themes
 
-A collection of five VS Code color themes by MJY, designed for readable syntax highlighting and focused coding sessions across dark and light environments.
+A collection of six VS Code color themes by MJY, designed for readable syntax highlighting and focused coding sessions across dark and light environments.
 
 ## Themes
 
 | Theme | Type | Editor background | Palette |
 | --- | --- | --- | --- |
 | **Blue Night (MJY)** | Dark | `#282840` | Cyan, neon green, lavender, and warm gold accents |
-| **Dark Night (MJY)** | Dark | `#202021` | Neutral charcoal UI with cyan, mint, blue, lavender, and soft teal syntax colors |
+| **Dark Night (MJY)** | Dark | `#242424` | Neutral charcoal UI with cyan, mint, blue, lavender, and soft teal syntax colors |
+| **Dark Night Modern (MJY)** | Dark | `#242424` | Dark Night UI with VS Code Dark Modern text and syntax colors |
 | **Blue Day (MJY)** | Light | `#FFFFFF` | High-contrast blue, green, indigo, and purple syntax colors with refined neutral text |
-| **Blue Modern Day (MJY)** | Light | `#FFFFFF` | Blue Day UI with Light Modern foreground and syntax colors |
+| **Blue Day Modern (MJY)** | Light | `#FFFFFF` | Blue Day UI with Light Modern foreground and syntax colors |
 | **Red Day (MJY)** | Light | `#FFFFFF` | VS Code Light+ syntax colors with Blue Day UI colors |
 
-All five themes include semantic token colors and six-color bracket pair highlighting. They are suitable for JavaScript, TypeScript, Python, Java, and other languages supported by VS Code's syntax grammars.
+All six themes include semantic token colors and six-color bracket pair highlighting. They are suitable for JavaScript, TypeScript, Python, Java, and other languages supported by VS Code's syntax grammars.
 
 ### Dark Night (MJY) visual system
 
-`Dark Night (MJY)` uses `#202021` as its main editor and UI background. Active surfaces use `#2D2D2E`, while inactive editor tabs remain `#202021`. The active tab is marked with a cyan top border (`#89DDFF`), Explorer hover uses `#242626`, and Explorer selection uses `#2D2D2E` whether or not the Explorer has focus.
+`Dark Night (MJY)` and `Dark Night Modern (MJY)` use `#242424` as their main editor and UI background. Active surfaces use `#2D2D2E`, while inactive editor tabs remain `#242424`. The active tab is marked with a cyan top border (`#89DDFF`), Explorer hover uses `#242626`, and Explorer selection uses `#2D2D2E` whether or not the Explorer has focus.
 
 Its current syntax palette includes:
 
@@ -32,6 +33,8 @@ Its current syntax palette includes:
 | Comments and Python docstrings | `#8D98B7` |
 | Warning diagnostics | `#FFD580` |
 | Added Git resources | `#A6E3A1` |
+
+`Dark Night Modern (MJY)` uses the same comment and string colors: comments and Python docstrings use `#8D98B7`, while strings use `#94FEBF`.
 
 The theme files are the source of truth. Do not duplicate these colors in VS Code `workbench.colorCustomizations`, because those settings override the theme.
 
@@ -50,8 +53,9 @@ Search for **VS Code Custom Themes** or **vscode-custom-themes** in the VS Code 
 5. Run **Preferences: Color Theme** and choose one of:
    - `Blue Night (MJY)`
    - `Dark Night (MJY)`
+   - `Dark Night Modern (MJY)`
    - `Blue Day (MJY)`
-   - `Blue Modern Day (MJY)`
+   - `Blue Day Modern (MJY)`
    - `Red Day (MJY)`
 
 You can also install a locally built package from a terminal:
@@ -65,14 +69,15 @@ code --install-extension vscode-custom-themes-*.vsix
 1. Clone this repository and open it in VS Code.
 2. Press `F5` to launch an Extension Development Host.
 3. Open **Preferences: Color Theme**.
-4. Select `Blue Night (MJY)`, `Dark Night (MJY)`, `Blue Day (MJY)`, `Blue Modern Day (MJY)`, or `Red Day (MJY)`.
+4. Select `Blue Night (MJY)`, `Dark Night (MJY)`, `Dark Night Modern (MJY)`, `Blue Day (MJY)`, `Blue Day Modern (MJY)`, or `Red Day (MJY)`.
 
 Theme definitions live in the `themes/` directory:
 
 - `themes/night-mjy-color-theme.json` — Blue Night (MJY)
 - `themes/dark-modern-mjy-color-theme.json` — Dark Night (MJY)
+- `themes/dark-night-modern-mjy-color-theme.json` — Dark Night Modern (MJY)
 - `themes/day-mjy-color-theme.json` — Blue Day (MJY)
-- `themes/blue-modern-day-mjy-color-theme.json` — Blue Modern Day (MJY)
+- `themes/blue-modern-day-mjy-color-theme.json` — Blue Day Modern (MJY)
 - `themes/red-day-mjy-color-theme.json` — Red Day (MJY)
 
 For the personal local installation, keep the installed extension path linked to this repository instead of editing the installed copy:

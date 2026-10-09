@@ -24,12 +24,17 @@
         "path": "./themes/dark-modern-mjy-color-theme.json"
       },
       {
+        "label": "Dark Night Modern (MJY)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-night-modern-mjy-color-theme.json"
+      },
+      {
         "label": "Blue Day (MJY)",
         "uiTheme": "vs",
         "path": "./themes/day-mjy-color-theme.json"
       },
       {
-        "label": "Blue Modern Day (MJY)",
+        "label": "Blue Day Modern (MJY)",
         "uiTheme": "vs",
         "path": "./themes/blue-modern-day-mjy-color-theme.json"
       },

@@ -201,7 +201,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#5F6A63",
+        "foreground": "#4F5C53",
         "fontStyle": "italic"
       }
     },
@@ -214,7 +214,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#16756F"
+        "foreground": "#126860"
       }
     },
     {
@@ -225,7 +225,7 @@
         "variable.language"
       ],
       "settings": {
-        "foreground": "#7651B5"
+        "foreground": "#6947A8"
       }
     },
     {
@@ -236,7 +236,7 @@
         "constant.language.java"
       ],
       "settings": {
-        "foreground": "#6F58A8"
+        "foreground": "#624D9C"
       }
     },
     {
@@ -247,7 +247,7 @@
         "string.template"
       ],
       "settings": {
-        "foreground": "#297454"
+        "foreground": "#216847"
       }
     },
     {
@@ -257,7 +257,7 @@
         "constant.regexp"
       ],
       "settings": {
-        "foreground": "#297454"
+        "foreground": "#216847"
       }
     },
     {
@@ -268,7 +268,7 @@
         "meta.function-call"
       ],
       "settings": {
-        "foreground": "#167493"
+        "foreground": "#126B86"
       }
     },
     {
@@ -280,7 +280,7 @@
         "support.class"
       ],
       "settings": {
-        "foreground": "#365F9D"
+        "foreground": "#315A97"
       }
     },
     {
@@ -290,7 +290,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#87558F"
+        "foreground": "#784D83"
       }
     },
     {
@@ -302,7 +302,7 @@
         "meta.tag entity.name.tag"
       ],
       "settings": {
-        "foreground": "#167493"
+        "foreground": "#126B86"
       }
     },
     {
@@ -334,7 +334,7 @@
         "markup.bold"
       ],
       "settings": {
-        "foreground": "#167493",
+        "foreground": "#126B86",
         "fontStyle": "bold"
       }
     },
@@ -345,7 +345,7 @@
         "markup.quote"
       ],
       "settings": {
-        "foreground": "#87558F",
+        "foreground": "#784D83",
         "fontStyle": "italic"
       }
     },
@@ -356,7 +356,7 @@
         "string.other.link"
       ],
       "settings": {
-        "foreground": "#297454",
+        "foreground": "#216847",
         "fontStyle": "underline"
       }
     },
@@ -383,7 +383,7 @@
         "entity.name.function.decorator.python"
       ],
       "settings": {
-        "foreground": "#87558F"
+        "foreground": "#784D83"
       }
     },
     {
@@ -394,7 +394,7 @@
         "keyword.modifier.java"
       ],
       "settings": {
-        "foreground": "#256B64"
+        "foreground": "#21645E"
       }
     },
     {
@@ -405,7 +405,7 @@
         "entity.name.type.java"
       ],
       "settings": {
-        "foreground": "#365F9D"
+        "foreground": "#315A97"
       }
     },
     {
@@ -417,7 +417,7 @@
         "keyword.control.java"
       ],
       "settings": {
-        "foreground": "#16756F"
+        "foreground": "#126860"
       }
     },
     {
@@ -429,34 +429,34 @@
         "keyword.control.throw.java"
       ],
       "settings": {
-        "foreground": "#16756F"
+        "foreground": "#126860"
       }
     }
   ],
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "comment": "#5F6A63",
-    "string": "#297454",
-    "number": "#7651B5",
-    "keyword": "#16756F",
-    "modifier": "#256B64",
+    "comment": "#4F5C53",
+    "string": "#216847",
+    "number": "#6947A8",
+    "keyword": "#126860",
+    "modifier": "#21645E",
     "operator": "#4E5661",
-    "function": "#167493",
-    "method": "#167493",
-    "class": "#365F9D",
-    "interface": "#365F9D",
-    "enum": "#365F9D",
-    "type": "#365F9D",
-    "typeParameter": "#365F9D",
+    "function": "#126B86",
+    "method": "#126B86",
+    "class": "#315A97",
+    "interface": "#315A97",
+    "enum": "#315A97",
+    "type": "#315A97",
+    "typeParameter": "#315A97",
     "parameter": "#343943",
     "variable": "#343943",
     "property": "#343943",
-    "enumMember": "#7651B5",
-    "boolean": "#6F58A8",
-    "null": "#6F58A8",
-    "namespace": "#365F9D",
-    "decorator": "#87558F",
+    "enumMember": "#6947A8",
+    "boolean": "#624D9C",
+    "null": "#624D9C",
+    "namespace": "#315A97",
+    "decorator": "#784D83",
     "label": "#555D68",
-    "regexp": "#297454"
+    "regexp": "#216847"
   }
 }
