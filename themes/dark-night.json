@@ -92,7 +92,7 @@
     "editorCursor.foreground": "#89DDFF",
     "editorLineNumber.foreground": "#6E7681",
     "editorLineNumber.activeForeground": "#CCCCCC",
-    "editor.lineHighlightBackground": "#202122",
+    "editor.lineHighlightBackground": "#2A2A2A",
     "editor.selectionBackground": "#3A3A3A",
     "editor.selectionForeground": "#FFFFFF",
     "editor.inactiveSelectionBackground": "#252525",
@@ -611,7 +611,18 @@
         "entity.name.operator.custom-literal"
       ],
       "settings": {
-        "foreground": "#8BE9FD"
+        "foreground": "#78D8E8"
+      }
+    },
+    {
+      "name": "Modules and namespaces",
+      "scope": [
+        "entity.name.namespace",
+        "support.other.module",
+        "support.other.module.python"
+      ],
+      "settings": {
+        "foreground": "#91B4D5"
       }
     },
     {
@@ -620,7 +631,6 @@
         "support.class",
         "support.type",
         "entity.name.type",
-        "entity.name.namespace",
         "entity.other.attribute",
         "entity.name.scope-resolution",
         "entity.name.class",

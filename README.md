@@ -6,7 +6,7 @@ A collection of five VS Code color themes by MJY, designed for readable syntax h
 
 | Theme | Type | Editor background | Palette |
 | --- | --- | --- | --- |
-| **Blue Night (MJY)** | Dark | `#282840` | Cyan, neon green, lavender, and warm gold accents |
+| **Blue Night (MJY)** | Dark | `#292D36` | Cyan, neon green, lavender, and warm gold accents |
 | **Dark Night (MJY)** | Dark | `#242424` | Dark Night UI with VS Code Dark Modern text and syntax colors |
 | **Blue Day (MJY)** | Light | `#FFFFFF` | High-contrast blue, green, indigo, and purple syntax colors with refined neutral text |
 | **Blue Day Modern (MJY)** | Light | `#FFFFFF` | Blue Day UI with Light Modern foreground and syntax colors |
@@ -14,18 +14,22 @@ A collection of five VS Code color themes by MJY, designed for readable syntax h
 
 All five themes include semantic token colors and six-color bracket pair highlighting. They are suitable for JavaScript, TypeScript, Python, Java, and other languages supported by VS Code's syntax grammars.
 
+### Blue Night (MJY) visual system
+
+`Blue Night (MJY)` uses `#292D36` as its main editor and UI background. Active surfaces use `#353B49`, while hover and focus surfaces use `#3E4656`. The current-line highlight uses `#2F343E` for a subtle neutral contrast.
+
 ### Dark Night (MJY) visual system
 
-`Dark Night (MJY)` uses `#242424` as its main editor and UI background. Active surfaces use `#2D2D2E`, while inactive editor tabs remain `#242424`. The active tab is marked with a cyan top border (`#89DDFF`), Explorer hover uses `#242626`, and Explorer selection uses `#2D2D2E` whether or not the Explorer has focus.
+`Dark Night (MJY)` uses `#242424` as its main editor and UI background. Active surfaces use `#2D2D2E`, while inactive editor tabs remain `#242424`. The current-line highlight uses `#2A2A2A`. The active tab is marked with a cyan top border (`#89DDFF`), Explorer hover uses `#242626`, and Explorer selection uses `#2D2D2E` whether or not the Explorer has focus.
 
 Its current syntax palette includes:
 
 | Role | Color |
 | --- | --- |
 | Variables and parameters | `#D6DEE5` |
-| Functions | `#8BE9FD` |
+| Functions | `#78D8E8` |
 | Types and classes | `#8FD3FF` |
-| Modules and namespaces | `#B8C7FF` |
+| Modules and namespaces | `#91B4D5` |
 | Strings | `#94FEBF` |
 | Control flow (`if`, `for`, `try`, `return`, etc.) | `#C4B5FF` |
 | Function definition (`def`) | `#8BE9FD` |
