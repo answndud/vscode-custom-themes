@@ -2,7 +2,7 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Blue Day Modern (MJY)",
   "type": "light",
-  "include": "./red-day-mjy-color-theme.json",
+  "include": "./red-day.json",
   "colors": {
     "activityBar.foreground": "#1F1F1F",
     "activityBar.inactiveForeground": "#616161",

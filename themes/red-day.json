@@ -2,7 +2,7 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Red Day (MJY)",
   "type": "light",
-  "include": "./day-mjy-color-theme.json",
+  "include": "./blue-day.json",
   "tokenColors": [
     {
       "scope": [
