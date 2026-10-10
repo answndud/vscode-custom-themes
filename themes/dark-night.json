@@ -408,7 +408,7 @@
     {
       "scope": "meta.preprocessor.string",
       "settings": {
-        "foreground": "#94FEBF"
+        "foreground": "#86D9A8"
       }
     },
     {
@@ -457,19 +457,19 @@
         "meta.embedded.assembly"
       ],
       "settings": {
-        "foreground": "#94FEBF"
+        "foreground": "#86D9A8"
       }
     },
     {
       "scope": "string.tag",
       "settings": {
-        "foreground": "#94FEBF"
+        "foreground": "#86D9A8"
       }
     },
     {
       "scope": "string.value",
       "settings": {
-        "foreground": "#94FEBF"
+        "foreground": "#86D9A8"
       }
     },
     {
@@ -819,7 +819,7 @@
   "semanticTokenColors": {
     "comment": "#707887",
     "newOperator": "#C586C0",
-    "stringLiteral": "#94FEBF",
+    "stringLiteral": "#86D9A8",
     "customLiteral": "#DCDCAA",
     "numberLiteral": "#b5cea8"
   }
