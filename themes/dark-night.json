@@ -251,7 +251,7 @@
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#8D98B7"
+        "foreground": "#707887"
       }
     },
     {
@@ -481,7 +481,7 @@
         "string.quoted.docstring.raw.single.python"
       ],
       "settings": {
-        "foreground": "#8D98B7"
+        "foreground": "#707887"
       }
     },
     {
@@ -695,6 +695,17 @@
       }
     },
     {
+      "name": "Python function and logical keywords",
+      "scope": [
+        "storage.type.function.python",
+        "keyword.operator.logical.python",
+        "keyword.other.lambda.python"
+      ],
+      "settings": {
+        "foreground": "#8AEDCF"
+      }
+    },
+    {
       "name": "Variable and parameter name",
       "scope": [
         "variable",
@@ -806,7 +817,7 @@
   ],
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "comment": "#8D98B7",
+    "comment": "#707887",
     "newOperator": "#C586C0",
     "stringLiteral": "#94FEBF",
     "customLiteral": "#DCDCAA",

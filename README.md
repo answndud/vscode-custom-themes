@@ -32,12 +32,12 @@ Its current syntax palette includes:
 | Modules and namespaces | `#91B4D5` |
 | Strings | `#94FEBF` |
 | Control flow (`if`, `for`, `try`, `return`, etc.) | `#C4B5FF` |
-| Function definition (`def`) | `#8BE9FD` |
-| Comments and Python docstrings | `#8D98B7` |
+| Python function and logical keywords (`def`, `not`, `and`, `lambda`, etc.) | `#8AEDCF` |
+| Comments and Python docstrings | `#707887` |
 | Warning diagnostics | `#FFD580` |
 | Added Git resources | `#A6E3A1` |
 
-Comments and Python docstrings use `#8D98B7`, while strings use `#94FEBF`.
+Comments and Python docstrings use `#707887`, while strings use `#94FEBF`.
 
 The theme files are the source of truth. Do not duplicate these colors in VS Code `workbench.colorCustomizations`, because those settings override the theme.
 
