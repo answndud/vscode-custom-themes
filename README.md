@@ -42,7 +42,7 @@ Comments and Python docstrings use `#707887`, while strings use `#94FEBF`.
 
 ### Dark Modern (MJY) visual system
 
-`Dark Modern (MJY)` keeps VS Code's built-in Dark Modern foreground and syntax colors. Its main editor and workbench surfaces use `#222222`.
+`Dark Modern (MJY)` keeps VS Code's built-in Dark Modern foreground and syntax colors. The code editor uses `#222222`; the sidebar, panel, and other workbench backgrounds use `#1F1F1F`.
 
 The theme files are the source of truth. Do not duplicate these colors in VS Code `workbench.colorCustomizations`, because those settings override the theme.
 
