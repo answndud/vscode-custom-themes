@@ -1,6 +1,6 @@
 # VS Code Custom Themes
 
-A collection of five VS Code color themes by MJY, designed for readable syntax highlighting and focused coding sessions across dark and light environments.
+A collection of six VS Code color themes by MJY, designed for readable syntax highlighting and focused coding sessions across dark and light environments.
 
 ## Themes
 
@@ -8,11 +8,12 @@ A collection of five VS Code color themes by MJY, designed for readable syntax h
 | --- | --- | --- | --- |
 | **Blue Night (MJY)** | Dark | `#292D36` | Cyan, neon green, lavender, and warm gold accents |
 | **Dark Night (MJY)** | Dark | `#242424` | Dark Night UI with VS Code Dark Modern text and syntax colors |
+| **Dark Modern (MJY)** | Dark | `#222222` | VS Code Dark Modern text and syntax colors with unified main backgrounds |
 | **Blue Day (MJY)** | Light | `#FFFFFF` | High-contrast blue, green, indigo, and purple syntax colors with refined neutral text |
 | **Blue Day Modern (MJY)** | Light | `#FFFFFF` | Blue Day UI with Light Modern foreground and syntax colors |
 | **Red Day (MJY)** | Light | `#FFFFFF` | VS Code Light+ syntax colors with Blue Day UI colors |
 
-All five themes include semantic token colors and six-color bracket pair highlighting. They are suitable for JavaScript, TypeScript, Python, Java, and other languages supported by VS Code's syntax grammars.
+All six themes include semantic token colors and six-color bracket pair highlighting. They are suitable for JavaScript, TypeScript, Python, Java, and other languages supported by VS Code's syntax grammars.
 
 ### Blue Night (MJY) visual system
 
@@ -39,6 +40,10 @@ Its current syntax palette includes:
 
 Comments and Python docstrings use `#707887`, while strings use `#94FEBF`.
 
+### Dark Modern (MJY) visual system
+
+`Dark Modern (MJY)` keeps VS Code's built-in Dark Modern foreground and syntax colors. Its main editor and workbench surfaces use `#222222`.
+
 The theme files are the source of truth. Do not duplicate these colors in VS Code `workbench.colorCustomizations`, because those settings override the theme.
 
 ## Installation
@@ -56,6 +61,7 @@ Search for **VS Code Custom Themes** or **vscode-custom-themes** in the VS Code 
 5. Run **Preferences: Color Theme** and choose one of:
    - `Blue Night (MJY)`
    - `Dark Night (MJY)`
+   - `Dark Modern (MJY)`
    - `Blue Day (MJY)`
    - `Blue Day Modern (MJY)`
    - `Red Day (MJY)`
@@ -71,12 +77,13 @@ code --install-extension vscode-custom-themes-*.vsix
 1. Clone this repository and open it in VS Code.
 2. Press `F5` to launch an Extension Development Host.
 3. Open **Preferences: Color Theme**.
-4. Select `Blue Night (MJY)`, `Dark Night (MJY)`, `Blue Day (MJY)`, `Blue Day Modern (MJY)`, or `Red Day (MJY)`.
+4. Select `Blue Night (MJY)`, `Dark Night (MJY)`, `Dark Modern (MJY)`, `Blue Day (MJY)`, `Blue Day Modern (MJY)`, or `Red Day (MJY)`.
 
 Theme definitions live in the `themes/` directory:
 
 - `themes/blue-night.json` — Blue Night (MJY)
 - `themes/dark-night.json` — Dark Night (MJY)
+- `themes/dark-modern.json` — Dark Modern (MJY)
 - `themes/blue-day.json` — Blue Day (MJY)
 - `themes/blue-day-modern.json` — Blue Day Modern (MJY)
 - `themes/red-day.json` — Red Day (MJY)

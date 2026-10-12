@@ -1,7 +1,7 @@
 {
   "name": "vscode-custom-themes",
   "displayName": "VS Code Custom Themes",
-  "description": "A collection of five VS Code color themes by MJY for dark and light coding environments.",
+  "description": "A collection of six VS Code color themes by MJY for dark and light coding environments.",
   "version": "0.4.3",
   "publisher": "mjy",
   "license": "MIT",
@@ -22,6 +22,11 @@
         "label": "Dark Night (MJY)",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-night.json"
+      },
+      {
+        "label": "Dark Modern (MJY)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-modern.json"
       },
       {
         "label": "Blue Day (MJY)",
