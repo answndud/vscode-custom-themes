@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Dark Night (MJY)",
+  "name": "Dark Simple (MJY)",
   "colors": {
     "focusBorder": "#89DDFF",
     "foreground": "#CCCCCC",
