@@ -8,7 +8,7 @@ A collection of six VS Code color themes by MJY, designed for readable syntax hi
 | --- | --- | --- | --- |
 | **Blue Night (MJY)** | Dark | `#292D36` | Cyan, neon green, lavender, and warm gold accents |
 | **Dark Night (MJY)** | Dark | `#242424` | Dark Night UI with VS Code Dark Modern text and syntax colors |
-| **Dark Modern (MJY)** | Dark | `#222222` | VS Code Dark Modern text and syntax colors with unified main backgrounds |
+| **Dark Modern (MJY)** | Dark | `#222222` | Dark Modern syntax with mint strings, muted comments, and lavender type names |
 | **Blue Day (MJY)** | Light | `#FFFFFF` | High-contrast blue, green, indigo, and purple syntax colors with refined neutral text |
 | **Blue Day Modern (MJY)** | Light | `#FFFFFF` | Blue Day UI with Light Modern foreground and syntax colors |
 | **Red Day (MJY)** | Light | `#FFFFFF` | VS Code Light+ syntax colors with Blue Day UI colors |
@@ -31,18 +31,27 @@ Its current syntax palette includes:
 | Functions | `#78D8E8` |
 | Types and classes | `#8FD3FF` |
 | Modules and namespaces | `#91B4D5` |
-| Strings | `#94FEBF` |
+| Strings | `#86D9A8` |
 | Control flow (`if`, `for`, `try`, `return`, etc.) | `#C4B5FF` |
 | Python function and logical keywords (`def`, `not`, `and`, `lambda`, etc.) | `#8AEDCF` |
 | Comments and Python docstrings | `#707887` |
 | Warning diagnostics | `#FFD580` |
 | Added Git resources | `#A6E3A1` |
 
-Comments and Python docstrings use `#707887`, while strings use `#94FEBF`.
+Comments and Python docstrings use `#707887`, while strings use `#86D9A8`.
 
 ### Dark Modern (MJY) visual system
 
-`Dark Modern (MJY)` keeps VS Code's built-in Dark Modern foreground and syntax colors. The code editor uses `#222222`; the sidebar, panel, and other workbench backgrounds use `#1F1F1F`.
+`Dark Modern (MJY)` keeps the built-in Dark Modern syntax palette with a few focused color changes. The code editor uses `#222222`, while the main workbench surfaces use the subtly darker `#202020`.
+
+Its syntax palette distinguishes these roles:
+
+| Role | Color |
+| --- | --- |
+| Strings | `#86D9A8` |
+| Comments and Python docstrings | `#707887` |
+| Types, classes, and exception names | `#B9C4FF` |
+| Control-flow keywords | `#C4B5FF` |
 
 The theme files are the source of truth. Do not duplicate these colors in VS Code `workbench.colorCustomizations`, because those settings override the theme.
 
