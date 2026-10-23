@@ -9,11 +9,17 @@ A collection of six VS Code color themes by MJY, designed for readable syntax hi
 | **Blue Night (MJY)** | Dark | `#292D36` | Cyan, neon green, lavender, and warm gold accents |
 | **Dark Simple (MJY)** | Dark | `#242424` | Dark Simple UI with VS Code Dark Modern text and syntax colors |
 | **Dark Modern (MJY)** | Dark | `#222222` | Dark Modern syntax with soft mint strings, light gray variables, muted comments, and lavender type names |
-| **Blue Day (MJY)** | Light | `#FFFFFF` | High-contrast blue, green, indigo, and purple syntax colors with refined neutral text |
-| **Blue Day Modern (MJY)** | Light | `#FFFFFF` | Blue Day UI with Light Modern foreground and syntax colors |
+| **Blue Day (MJY)** | Light | `#FFFFFF` | Teal keywords, navy strings, blue symbols, and muted gray comments and docstrings |
+| **Blue Day Modern (MJY)** | Light | `#FFFFFF` | Light Modern syntax colors with muted gray comments and docstrings |
 | **Red Day (MJY)** | Light | `#FFFFFF` | VS Code Light+ syntax colors with Blue Day UI colors |
 
 All six themes include semantic token colors and six-color bracket pair highlighting. They are suitable for JavaScript, TypeScript, Python, Java, and other languages supported by VS Code's syntax grammars.
+
+### Blue Day comment and string colors
+
+`Blue Day (MJY)` uses teal `#006B76` for keywords, blue `#3B5FA9` for module and namespace semantic tokens, and navy `#0A3069` for strings. Comments and docstrings share the muted gray `#8A9098`.
+
+`Blue Day Modern (MJY)` keeps its Light Modern syntax palette and uses the same muted gray `#8A9098` for comments and docstrings.
 
 ### Blue Night (MJY) visual system
 

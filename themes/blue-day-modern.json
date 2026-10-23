@@ -56,8 +56,35 @@
     "titleBar.activeForeground": "#1E1E1E",
     "titleBar.inactiveForeground": "#8B949E"
   },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#8A9098",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Docstrings",
+      "scope": [
+        "string.quoted.docstring",
+        "string.quoted.docstring.multi",
+        "comment.block.documentation",
+        "comment.line.documentation"
+      ],
+      "settings": {
+        "foreground": "#8A9098",
+        "fontStyle": "italic"
+      }
+    }
+  ],
   "semanticTokenColors": {
-    "comment": "#008000",
+    "comment": "#8A9098",
+    "string.documentation": "#8A9098",
     "string": "#A31515",
     "number": "#098658",
     "keyword": "#0000FF",

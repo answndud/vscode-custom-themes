@@ -201,7 +201,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#868973",
+        "foreground": "#8A9098",
         "fontStyle": "italic"
       }
     },
@@ -245,7 +245,7 @@
         "string.template"
       ],
       "settings": {
-        "foreground": "#59636F"
+        "foreground": "#0A3069"
       }
     },
     {
@@ -257,7 +257,7 @@
         "comment.line.documentation"
       ],
       "settings": {
-        "foreground": "#868973",
+        "foreground": "#8A9098",
         "fontStyle": "italic"
       }
     },
@@ -500,9 +500,9 @@
   ],
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "comment": "#868973",
-    "string": "#59636F",
-    "string.documentation": "#868973",
+    "comment": "#8A9098",
+    "string": "#0A3069",
+    "string.documentation": "#8A9098",
     "number": "#7041C2",
     "keyword": "#006B76",
     "modifier": "#006B76",
