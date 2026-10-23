@@ -1,6 +1,6 @@
 # VS Code Custom Themes
 
-A collection of five VS Code color themes by MJY, designed for readable syntax highlighting and focused coding sessions across dark and light environments.
+A collection of six VS Code color themes by MJY, designed for readable syntax highlighting and focused coding sessions across dark and light environments.
 
 ## Themes
 
@@ -11,14 +11,19 @@ A collection of five VS Code color themes by MJY, designed for readable syntax h
 | **Black Night Modern (MJY)** | Dark | `#222222` | Black Night Modern syntax with soft mint strings, light gray variables, muted comments, and lavender type names |
 | **Blue Light (MJY)** | Light | `#FFFFFF` | Teal keywords, navy strings, blue symbols, and muted gray comments and docstrings |
 | **Blue Light Modern (MJY)** | Light | `#FFFFFF` | Light Modern syntax colors with muted gray comments and docstrings |
+| **Blue Light Fundamentalism (MJY)** | Light | `#FFFFFF` | A role-separated blue palette with cool mint-green comments, inspired by Ghostty Blue Light |
 
-All five themes include semantic token colors and six-color bracket pair highlighting. They are suitable for JavaScript, TypeScript, Python, Java, and other languages supported by VS Code's syntax grammars.
+All six themes include semantic token colors and six-color bracket pair highlighting. They are suitable for JavaScript, TypeScript, Python, Java, and other languages supported by VS Code's syntax grammars.
 
 ### Blue Light comment and string colors
 
 `Blue Light (MJY)` uses teal `#006B76` for keywords, blue `#3B5FA9` for module and namespace semantic tokens, and navy `#0A3069` for strings. Comments and docstrings share the muted gray `#8A9098`.
 
 `Blue Light Modern (MJY)` keeps its Light Modern syntax palette and uses the same muted gray `#8A9098` for comments and docstrings.
+
+### Blue Light Fundamentalism (MJY) syntax palette
+
+`Blue Light Fundamentalism (MJY)` preserves the `Blue Light (MJY)` workbench and editor backgrounds while drawing syntax colors from the Ghostty `blue-light` palette. Deep navy anchors variables, royal blue marks keywords, and differentiated blue and blue-teal shades identify types, functions, properties, and strings. Comments and docstrings use the cool mint green `#4F8C78` to stand apart from code while staying subdued.
 
 ### Blue Night (MJY) visual system
 
@@ -87,6 +92,7 @@ Search for **VS Code Custom Themes** or **vscode-custom-themes** in the VS Code 
    - `Black Night (MJY)`
    - `Black Night Modern (MJY)`
    - `Blue Light (MJY)`
+   - `Blue Light Fundamentalism (MJY)`
    - `Blue Light Modern (MJY)`
 
 You can also install a locally built package from a terminal:
@@ -100,7 +106,7 @@ code --install-extension vscode-custom-themes-*.vsix
 1. Clone this repository and open it in VS Code.
 2. Press `F5` to launch an Extension Development Host.
 3. Open **Preferences: Color Theme**.
-4. Select one of the five themes listed above.
+4. Select one of the six themes listed above.
 
 Theme definitions live in the `themes/` directory:
 
@@ -108,6 +114,7 @@ Theme definitions live in the `themes/` directory:
 - `themes/black-night.json` — Black Night (MJY)
 - `themes/black-night-modern.json` — Black Night Modern (MJY)
 - `themes/blue-light.json` — Blue Light (MJY)
+- `themes/blue-light-fundamentalism.json` — Blue Light Fundamentalism (MJY)
 - `themes/blue-light-modern.json` — Blue Light Modern (MJY)
 
 For the personal local installation, keep the installed extension path linked to this repository instead of editing the installed copy:
