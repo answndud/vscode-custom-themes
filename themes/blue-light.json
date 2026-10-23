@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Blue Day (MJY)",
+  "name": "Blue Light (MJY)",
   "type": "light",
   "colors": {
     "activityBar.activeBackground": "#F2F2F2",
