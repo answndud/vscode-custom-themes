@@ -201,7 +201,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#59687A",
+        "foreground": "#868973",
         "fontStyle": "italic"
       }
     },
@@ -212,7 +212,7 @@
         "storage"
       ],
       "settings": {
-        "foreground": "#00766C"
+        "foreground": "#006B76"
       }
     },
     {
@@ -245,7 +245,20 @@
         "string.template"
       ],
       "settings": {
-        "foreground": "#0F7742"
+        "foreground": "#59636F"
+      }
+    },
+    {
+      "name": "Docstrings",
+      "scope": [
+        "string.quoted.docstring",
+        "string.quoted.docstring.multi",
+        "comment.block.documentation",
+        "comment.line.documentation"
+      ],
+      "settings": {
+        "foreground": "#868973",
+        "fontStyle": "italic"
       }
     },
     {
@@ -409,7 +422,7 @@
         "keyword.control.java"
       ],
       "settings": {
-        "foreground": "#00766C"
+        "foreground": "#006B76"
       }
     },
     {
@@ -421,7 +434,7 @@
         "keyword.control.throw.java"
       ],
       "settings": {
-        "foreground": "#0B6C63"
+        "foreground": "#006B76"
       }
     },
     {
@@ -439,7 +452,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#08736B"
+        "foreground": "#006B76"
       }
     },
     {
@@ -487,11 +500,12 @@
   ],
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "comment": "#59687A",
-    "string": "#0F7742",
+    "comment": "#868973",
+    "string": "#59636F",
+    "string.documentation": "#868973",
     "number": "#7041C2",
-    "keyword": "#00766C",
-    "modifier": "#08736B",
+    "keyword": "#006B76",
+    "modifier": "#006B76",
     "operator": "#424C5B",
     "function": "#007F9D",
     "method": "#007397",
